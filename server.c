@@ -101,7 +101,10 @@ int main()
             return -1;
         }
 
-        printf("Server starts\n");
+        printf("Github:");
+        printf("https://github.com/lokey0905/WinSock-Windows-Remote\n");
+        system("ipconfig");
+        printf("\nServer starts.......\n");
         _beginthread(_accept, 0, "accept");
 
         while (1) {
